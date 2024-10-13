@@ -5,7 +5,7 @@ public class task320 {
         int end = sc.nextInt();
         double summ = 0;
         for (int i = 1; i <= end; i++) {
-            summ += 1.0 / (i * i);
+            summ += 1.0 / Math.pow(i, 2);
         }
         System.out.println(summ);
     }
